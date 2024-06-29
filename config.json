@@ -1,0 +1,26 @@
+{
+    "modules": [
+        "send_money",
+        "transaction_history",
+        "transaction_hostory_in _progress",
+        "transaction_history_comleted",
+        "request_money",
+        "topup",
+        "main_navigation",
+        "dashboard",
+        "wallet",
+        "profile",
+        "profile_personal",
+        "profile_busniess",
+        "qescan"
+    ],
+    "module_directory_name": "module",
+    "experimental_mode": false,
+    "learning_mode": false,
+    "unfreezed": true,
+    "use_cubit": false,
+    "ignore_core_generator_for_directories": [
+        "lib/model",
+        "lib/models"
+    ]
+}
