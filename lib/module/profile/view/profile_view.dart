@@ -33,7 +33,7 @@ class ProfileView extends StatefulWidget {
                             CircleAvatar(
                               radius: 42.0,
                               backgroundImage: NetworkImage(
-                                "https://res.cloudinary.com/dotz74j1p/raw/upload/v1716044979/nr7gt66alfhmu9vaxu2u.png",
+                                "https://plus.unsplash.com/premium_photo-1664015982598-283bcdc9cae8?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWVufGVufDB8fDB8fHww",
                               ),
                             ),
                             SizedBox(

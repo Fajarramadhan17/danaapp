@@ -14,6 +14,8 @@
         "profile_busniess",
         "qescan"
     ],
+    "clean_architecture": false,
+    "services": [],
     "module_directory_name": "module",
     "experimental_mode": false,
     "learning_mode": false,

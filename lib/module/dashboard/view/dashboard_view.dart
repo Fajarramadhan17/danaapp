@@ -33,7 +33,7 @@ class DashboardView extends StatefulWidget {
               width: 4.0,
             ),
             Text(
-              "1200.500",
+              "12.500",
               style: TextStyle(
                 fontSize: 18.0,
                 fontWeight: FontWeight.bold,
@@ -115,7 +115,7 @@ class DashboardView extends StatefulWidget {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    "Lazada 10.10",
+                                    "Shoppe 10.10",
                                     style: TextStyle(
                                       fontSize: 20.0,
                                       fontWeight: FontWeight.bold,
@@ -391,6 +391,22 @@ class DashboardView extends StatefulWidget {
                         ),
                         const SizedBox(
                           height: 20.0,
+                        ),
+                        Container(
+                          height: 160.0,
+                          decoration: const BoxDecoration(
+                            image: DecorationImage(
+                              image: NetworkImage(
+                                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-hjn2uZgJzEjBaFEUunEPGgA5h6Zc9D6k3g&s",
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(
+                                8.0,
+                              ),
+                            ),
+                          ),
                         ),
                       ],
                     ),

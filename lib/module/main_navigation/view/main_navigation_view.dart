@@ -25,11 +25,8 @@ class MainNavigationView extends StatefulWidget {
           children: [
             DashboardView(),
             TopupView(),
-            Container(
-              color: Colors.red,
-            ),
+            ProfilePersonalView(),
             ProfileView(),
-            WalletView(),
           ],
         ),
         floatingActionButton: Transform.translate(
