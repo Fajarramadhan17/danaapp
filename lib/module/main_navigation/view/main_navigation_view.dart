@@ -20,15 +20,12 @@ class MainNavigationView extends StatefulWidget {
       length: 4,
       initialIndex: controller.selectedIndex,
       child: Scaffold(
-        body: IndexedStack(
-          index: controller.selectedIndex,
-          children: [
-            DashboardView(),
-            TopupView(),
-            ProfilePersonalView(),
-            ProfileView(),
-          ],
-        ),
+        body: IndexedStack(index: controller.selectedIndex, children: [
+          DashboardView(),
+          TopupView(),
+          ProfilePersonalView(),
+          ProfileView(),
+        ]),
         floatingActionButton: Transform.translate(
           offset: Offset(0, 10),
           child: Transform.scale(
